@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-image: url(img/bg.png);
+}
+
+h1 {
+    margin-top: 50px;
+    margin-right: 25%;
+    margin-left: 25%;
+    width: 50%;
+    height: 80px;
+    padding-top: 10px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    background-color: lightblue;
+    color: rgb(8, 49, 63);
+    font-size: 50px;
+    border-radius: 30px 30px 0 0;
+    border-bottom: 6px solid rgb(5, 32, 42);
+}
+
+/* COMPUTER PARTS---------------------------------- */
+div.computer {
+    margin: auto;
+    width: 50%;
+    height: 280px;
+    background-color: rgb(12, 68, 88);
+    border-bottom: 2px solid rgb(0, 11, 15);
+}
+
+div.computer p {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 40px;
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.computer img {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    border: 6px solid lightblue;
+    box-shadow: 0 5px 10px black;
+}
+
+/* RESULT PARTS------------------------------------- */
+
+div.result {
+    margin: auto;
+    width: 60%;
+    height: 80px;
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 5px solid rgb(0, 11, 15);
+    position: relative;
+    top: -40px;
+    box-shadow: 0 0 10px white;
+    padding-top: 20px;
+}
+
+span.hasil {
+    font-size: 25px;
+    font-family: "Gugi";
+}
+
+/* USER PARTS ------------------------------------- */
+
+div.user {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    width: 50%;
+    height: 320px;
+    background-color: rgb(12, 68, 88);
+    border-top: 2px solid rgb(0, 11, 15);
+    border-radius: 0 0 30px 30px;
+}
+
+div.user p {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top: -20px;
+}
+
+li {
+    display: inline-block;
+
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+li img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 6px solid lightblue;
+    position: relative;
+    top: 0;
+    box-shadow: 0 5px 10px black;
+    transition: 0.2s;
+}
+
+li img:hover {
+    top: -10px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.692);
+}
+
+li img:active {
+    top: 0;
+    box-shadow: 0 5px 10px black;
+}
